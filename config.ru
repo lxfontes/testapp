@@ -8,4 +8,3 @@ get '/' do
 end
 
 run Sinatra::Application
-
