@@ -4,7 +4,7 @@ require 'bundler'
 Bundler.require
 
 get '/' do
-  "gigity #{ENV['HOSTNAME']} sdlskdjf"
+  "gigity #{ENV['HOSTNAME']} sdlskdj"
 end
 
 run Sinatra::Application
