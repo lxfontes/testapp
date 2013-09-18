@@ -4,7 +4,7 @@ require 'bundler'
 Bundler.require
 
 get '/' do
-  ENV['MESSAGE'] || 'giggitygo is back'
+  "gigity #{ENV['HOSTNAME']}"
 end
 
 run Sinatra::Application
