@@ -1,0 +1,11 @@
+zz:
+  buildpack: auto
+  deploy: true
+  notifications:
+    - http://hubot
+  hostnames:
+    - banshee.something.io
+  workers:
+    - web: 5
+  environment:
+    - NODE_ENV: production
