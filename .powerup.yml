@@ -1,6 +1,5 @@
-zz:
+z:
   buildpack: auto
-  deploy: true
   notifications:
     - http://hubot
   hostnames:
