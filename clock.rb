@@ -1,5 +1,4 @@
 require 'clockwork'
-
 include Clockwork
 
 every(10.seconds, 'Just say something') do
