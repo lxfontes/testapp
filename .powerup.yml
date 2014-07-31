@@ -8,3 +8,4 @@ z:
     - web: 5
   environment:
     - NODE_ENV: production
+
