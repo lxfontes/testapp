@@ -5,7 +5,7 @@ z:
   hostnames:
     - banshee.something.io
   workers:
-    - web: 5
+    - web: 1
   environment:
     - NODE_ENV: production
 
