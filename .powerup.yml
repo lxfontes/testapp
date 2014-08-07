@@ -8,4 +8,6 @@ zz:
     - web: 1
   environment:
     - NODE_ENV: production
+    - REDIS_HOST: something
+    - REDIS_PORT: 6379
 
